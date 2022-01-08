@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+html {
+    font-size: 12px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.container {
+    width: clamp(576px, 70vw, 1200px);
+    margin: 0 auto;
+    
+ }
+
+header, main, footer {
+    padding: 1rem;
+    
+}
+
+.PG {font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    margin-right: auto;}
+    
+a[href] {font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;}
+    
+    header {display: flex;
+    gap: 6px;
+    align-items: center;}
+    
+h1 {font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;}
+    
+p {font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: black;}
+
+.head-image {
+    background-color: white;
+    background-image: url(../images/head-image.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 50px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 15px 15px 0px 0px;}
+
+.person-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+    display: block;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px gray;
+    margin: -35px auto 0 auto;
+    }
+
+.component h2 {margin: 0px 7px 0px 7px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+h2+p {
+    font-size: 10px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 15px 0px 15px;}
+
+.component {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px grey;}
+
+p+div {display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px 0px 7px 0px;}
+
+span:first-child {
+    color: black;
+    font-size: 17px;
+    }
+       
+span:last-child {
+    color: black;
+    font-size: 17px;
+    }
+    
+button {
+    background: green;
+    color:white;
+    font-size: 10px;
+    min-width: 80%;
+    margin: 0px 12px 8px 12px;
+    padding: 3px;
+    border-radius: 5px;}
+
+footer {text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: black;
+    font-weight: bold;}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cell {
+    width: calc(100% / 4);
+    padding: 15px;
+    }
+
+
+
+
+
+
+
+
+    
+
+
